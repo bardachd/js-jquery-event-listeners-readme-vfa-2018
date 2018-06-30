@@ -5,9 +5,11 @@ function frameIt() {
   $("img") .addClass("tasty")
   return;
 }
-function pressIt() {
-  alert('g')
-  return;
++function pressIt() {
++  $('form').on('keydown', (e) => {
+    if (e.which == 71) {
+      alert('just a g thang')    }
+ })
 }
 
 
