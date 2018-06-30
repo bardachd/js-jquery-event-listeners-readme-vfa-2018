@@ -1,6 +1,5 @@
-  function getIt() {
-$('p').click("hey!")
-  return;
+function getIt() {
+ $('p').on('click', () => {alert('Hey!')})
 }
 function frameIt() {
   $("img") .addClass("tasty")
